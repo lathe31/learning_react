@@ -1,0 +1,18 @@
+.ChatCardContainer{
+    color: white;
+    /* min-height: 15px; */
+    background-color: #072B36;
+    padding: 10px;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+    margin-bottom: 5px;
+}
+.ChatCardContainer span{
+    display: flex;
+    flex-wrap: wrap
+}
+#SystemReply{
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    margin-bottom: 5px;
+}

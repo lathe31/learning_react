@@ -1,4 +1,7 @@
 .App{
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #c4c4c4;
+}
+.spacer{
+    flex: 1;
 }
