@@ -13,7 +13,7 @@ const ChatBox = ({
   chatList,
   userInputHandle,
   handleSubmit,
-  userText
+  userText,
 }) => {
   if (show) {
     return (
@@ -33,8 +33,14 @@ const ChatBox = ({
             })}
           </div>
           <span className={Styles.inputContainer}>
-            <input type="text" name="" id={Styles.inputField} onChange={userInputHandle} value={userText}/>
-            <button onClick={handleSubmit} >
+            <input
+              type="text"
+              name=""
+              id={Styles.inputField}
+              onChange={userInputHandle}
+              value={userText}
+            />
+            <button onClick={handleSubmit}>
               <FontAwesomeIcon icon={faPaperPlane} />
             </button>
           </span>
