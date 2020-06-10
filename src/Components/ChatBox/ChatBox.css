@@ -1,0 +1,15 @@
+.ChatWindowContainer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 350px;
+  width: 275px;
+  background-color: black;
+  overflow-y: auto;
+  border-radius: 15px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
